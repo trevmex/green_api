@@ -1,0 +1,35 @@
+<h1>Listing users</h1>
+
+<table>
+  <tr>
+    <th>Name</th>
+    <th>Description</th>
+    <th>Rank</th>
+    <th>Password salt</th>
+    <th>Password hash</th>
+    <th>Public profile</th>
+    <th>Advertising enabled</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @users.each do |user| %>
+  <tr>
+    <td><%= user.name %></td>
+    <td><%= user.description %></td>
+    <td><%= user.rank %></td>
+    <td><%= user.password_salt %></td>
+    <td><%= user.password_hash %></td>
+    <td><%= user.public_profile %></td>
+    <td><%= user.advertising_enabled %></td>
+    <td><%= link_to 'Show', user %></td>
+    <td><%= link_to 'Edit', edit_user_path(user) %></td>
+    <td><%= link_to 'Destroy', user, :confirm => 'Are you sure?', :method => :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New User', new_user_path %>

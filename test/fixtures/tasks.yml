@@ -1,0 +1,19 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  impact: MyText
+  name: MyString
+  karma_points: 1
+  charisma_points: 1
+  green_points: 1
+  simplicity_points: 1
+  links: 
+
+two:
+  impact: MyText
+  name: MyString
+  karma_points: 1
+  charisma_points: 1
+  green_points: 1
+  simplicity_points: 1
+  links: 

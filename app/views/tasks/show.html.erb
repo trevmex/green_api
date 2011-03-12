@@ -1,0 +1,40 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Impact:</b>
+  <%= @task.impact %>
+</p>
+
+<p>
+  <b>Name:</b>
+  <%= @task.name %>
+</p>
+
+<p>
+  <b>Karma points:</b>
+  <%= @task.karma_points %>
+</p>
+
+<p>
+  <b>Charisma points:</b>
+  <%= @task.charisma_points %>
+</p>
+
+<p>
+  <b>Green points:</b>
+  <%= @task.green_points %>
+</p>
+
+<p>
+  <b>Simplicity points:</b>
+  <%= @task.simplicity_points %>
+</p>
+
+<p>
+  <b>Links:</b>
+  <%= @task.links %>
+</p>
+
+
+<%= link_to 'Edit', edit_task_path(@task) %> |
+<%= link_to 'Back', tasks_path %>

@@ -1,0 +1,19 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  name: MyString
+  description: MyText
+  rank: 1
+  password_salt: MyString
+  password_hash: MyString
+  public_profile: false
+  advertising_enabled: false
+
+two:
+  name: MyString
+  description: MyText
+  rank: 1
+  password_salt: MyString
+  password_hash: MyString
+  public_profile: false
+  advertising_enabled: false

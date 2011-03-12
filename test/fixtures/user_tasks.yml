@@ -1,0 +1,11 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  status: MyString
+  due_date: 2011-03-12 11:43:15
+  completion_date: 2011-03-12 11:43:15
+
+two:
+  status: MyString
+  due_date: 2011-03-12 11:43:15
+  completion_date: 2011-03-12 11:43:15
